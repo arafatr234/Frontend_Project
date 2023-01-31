@@ -1,0 +1,358 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background:#3E5B9A;
+    overflow: hidden;
+    padding: 8px; 
+ 
+    /*jodi background kokhno chole jay 
+    tahole eta use korte pari
+    */
+}
+.container{
+    width: 65%;
+      /*container er width=65%*/
+    margin: auto;
+
+    /*max-width=1000px dile joto boro device thekei dekhuk na kno majhkhane dekhte parbe */
+}
+.logo-area{
+    width: 30%;
+    float: left;
+    color: white;
+}
+.logo-area img{
+    /*logo area er vitore jodi kono image pay tahole tar 
+    width hobe 160px and upor theke nambe 20px*/
+    width: 160px;
+    margin-top: 20px;
+}
+.login-area{
+    width: 70%;
+    float: left;
+    color: white;
+}
+
+.login-area form{
+    float: right;
+     /* log in area er vitore jodi kono form thake tahole right e chole 
+     jabe
+     */
+
+}
+
+.login-area label{
+     /*login-area er vitore jodi kono label thake tahole
+     take block kore dibo*/
+     display: block;
+      /*label holo inline element 
+     inline element ke jodi block element korte pari tahole
+     niche chole ashbe nahole input er box ta label er pashe thakbe
+     */
+     font-size: 15px;
+     margin-bottom: 5px;
+}
+.login-area input{
+    /*login-area er vitore jodi kono input thake tahole
+     take block kore dibo*/
+     display: block;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login{
+      float: left;
+      /*eta korle login er bame ashbe password tar bame ashbe email*/
+      margin-right: 15px;
+      /*akta thake ar akta 15px dane sore jabe orthad email theke password 15px sorbe and password theke login 15p sorbe*/
+}    
+#login{
+    
+    float: left;
+    margin-right: 0;
+}
+.login-area input[type="text"],
+ /*login are er vitor jodi kono input thake and setar type jodi text
+ hoy tahole apply hobe*/
+.login-area input[type="password"]{
+   /*login are er vitor jodi kono input thake and setar type jodi password
+   hoy tahole apply hobe */
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 5px;
+}
+.login-area .password a{
+      /*log in are er vitore password er vitore a pele kaj korbe*/
+    text-decoration: none;
+    color: #9cb4d8;
+    font-size: 12px;
+}
+.login-area .password a:hover{
+    text-decoration: underline;
+}
+.login-area input[type="submit"]{
+    background-color: #4267b2;
+    border:1px solid #29487d;
+    color: #fff;
+    padding: 3px 8px;
+    /*upore niche then dane bame*/
+    font-weight: 400;
+    margin-top: 23px;
+}
+
+
+
+
+
+.sign-up area:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+/*sign up area er background use korbo jate kono problem na hoy
+tai agei solve kore nilam*/
+
+
+
+.left-area{
+    width: 50%;
+    /*left area 50% jayga nibe*/
+    float: left;
+      /*left area bame thakbe*/
+
+     
+
+}
+
+.left-area img{
+    width: 350px;
+    height: 283px;
+}
+
+.right-area{
+    width: 50%;
+    /*right area 50% jayga nibe*/
+    float: left;
+    /*left shesh hole right start hobe orthad left shesh hole right start hobe*/
+}
+
+.left-area p{
+    font-size: 20px;
+    color: #0e385f;
+    width: 95%;
+}
+
+.right-area input[type="text"],
+.right-area input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 10px;
+    /*lekhatar upore niche faka jayga then bame dane faka jayga*/
+    font-size: 18px;
+    margin:5px 0px;
+    /*box er upore niche faka jayga then bame dane faka jayga*/
+}
+
+.full-name{
+   overflow: hidden;
+   /*full name er vitorer kono kisu baire jabe na ba 
+   full namer er bahirer kono kisu vitore ashbe na*/
+ }
+.first-name{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+ }
+.surname{ 
+    width: 48%;
+    float: left;
+ }
+
+.birthday h4{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.birth-date{
+    overflow: hidden;
+}
+
+.birthday select{
+   border: 1px solid #ccc;
+   padding: 5px;
+   float: left;
+}
+
+.birthday{
+    overflow: hidden;
+}
+
+.birthdate{
+    overflow: hidden;
+    float: left;
+    width: 230px;
+    margin-right:5px;
+}
+
+.birth-link{
+    float: left;
+    width: 190px;
+}
+
+.birth-link a{
+    font-size: 13px;
+    display: block;
+    line-height: 1.1;
+    text-decoration: none;
+    color: #365899;
+}
+.birth-link a:hover{
+    text-decoration: underline;
+}
+.gender{
+    margin-top: 10px;
+}
+
+.gender label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d2129;
+}
+
+.text-box{
+    margin-bottom: 10px;
+}
+.text-box p{
+    font-size: 13px;
+    color: #777;
+    width: 80%;
+
+}
+.text-box a{
+    text-decoration: none;
+    color: #365899;
+}
+
+.text-box a:hover{
+    text-decoration:underline;
+}
+.btn{
+    margin-bottom: 20px;
+}
+
+
+.btn input{
+        background: linear-gradient(#67ae55,#576843);
+        box-shadow: inset 0 1px 1px #a4e388;
+        border-width: 1px;
+        border-style: solid;
+        padding: 7px 14px;
+        height: 35px;
+        width: 170px;
+        text-align: center;
+        color: #fff;
+        border-radius: 5x;
+        font-weight: 400;
+        font-size: 20px;
+        transition:500s;
+}
+.btn input:hover{
+    background: linear-gradient(#576843,#67ae55);
+    cursor:pointer;
+}
+
+
+
+
+
+.bussness{
+    font-weight: 600;
+    color: #666;
+    
+}
+.bussness a{
+    text-decoration: none;
+}
+.bussness:hover a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/*start footer area*/
+
+.footer-area{
+    margin-top: 10px;
+}
+
+
+.footer-area{
+    background: linear-gradient(#ffffff,#D4D9E9);
+    padding: 20px 0;
+}
+.footer-area{
+    padding: 30px 0;
+    /*upore-niche 30 bame dane 0*/
+    margin-top: 20px;
+}
+
+.footer-area ul{
+    margin:0;
+    padding: 0;
+}
+.footer-area ul li{
+    display: inline;
+    /*dot chinno gula thakbe na and*/
+    /* pashapashi chole ashbe*/
+    margin-right: 10px;
+     
+}
+.footer-area ul li a{
+    text-decoration: none;
+     /* underline thakbe na*/
+    color: #365899;
+    font-size: 13px;
+}
+
+.footer-area ul li .active a{
+    color:#737373;
+}
+.footer-area .top ul li{
+    margin-right: 5px;
+     /* protita word er distance 5px hobe*/
+}
+.footer-area .middle ul li{
+    margin-right: 15px;
+     /* protita word er distance 5px hobe*/
+}
+.footer-area .top ul:Last-child a{
+    border: 1px solid #999;
+    padding: 0 6px;
+     /* + sign ta design korlam*/
+}
+
+
+.footer-area .top ul li:last-child,
+.footer-area .bottom ul li:last-child{
+    margin-right: 0;
+    /* akdom last word tar poreo 10px create hoyesilo
+    eta amra chassi na tai 0 kore dilam*/
+
+}
+
+.footer-area span{
+    color: #737373;
+    font-size: 13px;
+}
+.footer-area hr{
+    border: 0; 
+    border-bottom:1px solid #d4d4d4d4;
+}

@@ -1,0 +1,83 @@
+/*control+shift+M*/
+/*mobile er jonno*/
+@media screen and (max-width: 980px){
+    .logo-area{
+     width: 100%;
+     float:none;
+     /*facebook logo take majhkhane ante chassi.tar jonno facebook er width age 30% silo akhn 100% korte hobe and 
+     age float left silo,karonn bam pashe bole akkhn majhe chole ashbe tai none korbo
+     */
+     text-align: center;
+       /*facebook logo ta majhkhane thakbe*/
+    /*
+       margin-bottom: 15px;
+     /*facebook logo er 15px jayga faka hobe orthad login area ta aktu niche nambe*/
+  
+    }
+    .login-area{
+        width: 100%;
+        float: none;
+         /*majhkhane anbo tai ei 2 ta korsi*/
+        width: 405px;
+        margin: 15px auto; 
+        /*upore niche then dane bame*/
+         /* facebook logo theke 15px niche nambe*/
+      
+    }
+    .login-area form{
+        float: none;
+         /*age right silo majhe anbo tai none kore disi*/
+    }
+}
+
+@media screen and(max-width:768px){
+       /*0 theke 768 er jonno kaj korbe*/
+    .login-area{
+        width: 100%;
+    }
+     /*login area age 405px silo akkhn 100% korlam */
+   .login-area .email,
+   .login-area .password,
+   .login-area .login{
+      float: none;
+      /*age left silo akkhn none kore dissi.none kore dile email er niche password ashbe and password er niche log in ashbe*/
+      margin-right: 0;
+      /*niche niche ashle margin right er dorkar nai tai 0 kore dilam*/
+   }
+   .login-area input[type="text"],
+   .login-area input[type="password"]{
+       width: 100%;
+       box-sizing: border-box;
+        /*onk somoy size ta width er cheye boro hoye
+        jay tai eta use korbo.ei 2ta use korle width er 
+        soman hobe*/
+   }      
+}   
+@media screen and(max-width:400px){
+     .container{
+         width: 90%;
+          /*container mane holo full width er moddhe lekha
+          ta koto tuku jayga jure thakbe,I mean log in 
+          form ta....age silo 65% akkhn korlam 90%
+          screen er 90% jayga jure thakbe log in form ta*/
+     }      
+}  
+
+
+
+
+  /*
+    button class override hoy na tai ei part kaj kore na
+    .login-area input[type="submit"]{
+    float:none;
+    background-color: red;
+    border:1px solid red;
+    color: red;
+    padding: 30px 8px;
+    font-weight: 400;
+    margin-top: 50px;
+    */
+
+
+/*button ta ovverridde korte partisi na tai log in button ta niche namate partisi na*/
+/*onno sob kisu override kora jasse but button kora jasse na,tai mobile sceren e button er kono property cng korle seta kaj kortise na*/

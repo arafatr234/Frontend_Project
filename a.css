@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+     /*google theke copy-paste.cz different type e likhte parbo*/
+}
+.header{
+    background: 3E5B9A;
+    overflow: hidden; 
+ 
+    /*jodi background kokhno chole jay 
+    tahole eta use korte pari
+    */
+}
+.container{
+    width: 65%;
+      /*container er width=65%*/
+    margin: auto;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.login-area{
+    width: 70%;
+    float: left;
+
+}
+.login-area form{
+    float: right;
+     /* log in area er vitore jodi kono form thake tahole right e chole 
+     jabe
+     */
+
+}
+.login-area label{
+    /*login-area er vitore jodi kono label thake tahole
+    take block kore dibo*/
+    display: block;
+     /*label holo inline element 
+    inline element ke jodi block element korte pari tahole
+    niche chole ashbe nahole input er box ta label er pashe thakbe
+    */
+}
+.login-area input{
+   /*login-area er vitore jodi kono input thake tahole
+    take block kore dibo*/
+    display: block;
+}
+   
